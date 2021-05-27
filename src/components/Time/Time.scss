@@ -1,0 +1,22 @@
+.intuit-time-scheduler {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .date-picker {
+        padding: 0 20px;
+    }
+    .start-and-end {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            padding: 20px;
+        }
+    }
+    input {
+        padding: 10px;
+    }
+    img {
+        margin-left: 20px;
+    }
+}

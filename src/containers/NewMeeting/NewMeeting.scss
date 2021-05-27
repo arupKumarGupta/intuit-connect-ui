@@ -1,0 +1,25 @@
+.new-meeting {
+    display: flex;
+    justify-content: space-between;
+    .form-container {
+        .venue-selector {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        img {
+            margin-left: 20px;
+        }
+        .meeting-title {
+            padding: 5px 30px;
+            margin-left: 20px;
+            font-size: 24px;
+        }
+        .loader-container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

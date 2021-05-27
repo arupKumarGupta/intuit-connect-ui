@@ -1,0 +1,48 @@
+// Connect Styles
+.intuit-connect {
+    $primary-color: #17597e;
+    min-height: 600px;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 600px;
+        z-index: -1;
+        background: #17597e;
+        clip-path: polygon(0% 0%, 0% 100%, 100% 70%, 100% 0, 0% 0%);
+    }
+    .intuit-logo {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .new-meet-primary {
+        margin-right: 280px;
+    }
+    .desc {
+        .text {
+            color: white;
+            max-width: 500px;
+            word-wrap: break-word;
+            font-size: 1.2rem;
+            margin-left: 40px;
+        }
+        .nomad {
+            margin-right: 100px;
+        }
+    }
+    .new-meeting-header {
+        color: $primary-color;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 1rem;
+    }
+}
+
+.intuit-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

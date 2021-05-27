@@ -1,0 +1,20 @@
+.time-picker {
+    .MuiTextField-root {
+        width: 100px;
+        background: rgba(219, 218, 218, 0.808);
+        border-radius: 5px;
+    }
+    .MuiInput-underline {
+        &:hover:before,
+        &:active:before,
+        &:focus:before,
+        &:before,
+        &:after {
+            border: none !important;
+            content: '';
+        }
+        input {
+            text-align: center;
+        }
+    }
+}
